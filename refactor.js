@@ -82,8 +82,10 @@ console.log(fido.isHeavyAndSpottedAndNameIsLong()); // success -- false
  * - Is fido "heavy" AND spotted AND has a long name? 
  *
  * NOTE:
- * ## We want to keep fido's weight private.
- * ## We want to know if he is heavy or not, but not his specific weight
+ * ## fido's weight should not be public (he might be embarrassed).
+ * ## we want to know if he is heavy or not, but not his specific weight
+ * ## name should definitely be publicly available
+ * ## other props have no public/private restrictions
  * 
  * NOTE: 
  * ## We do not care to keep track of any info that isn't
