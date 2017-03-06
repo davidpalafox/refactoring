@@ -47,7 +47,7 @@ var Dog = function(name, spotted, breed, weight) {
   }
 
   this.anotherdogsharesmyname = function() {
-    // in JS checking for the indexOf is used to check for the presence of an el
+    // in JS, we use ARRAY.indexOf() to check for the presence of an element
     return dogNames.indexOf(this.name) > -1;
   }
 
